@@ -2,6 +2,6 @@ name: Debug log
 on: push
 jobs:
   debug:
-    runs-on: ubntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "::debug::this is a debug log"
